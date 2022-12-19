@@ -1,8 +1,8 @@
 <?php
 
-$connection = mysqli_connect('localhost','root');
+$connection = mysqli_connect('localhost','id20027682_userinfodata','?%>kKLpc*Y5PURXr','id20027682_sparksdonation');
 
-mysqli_select_db($connection,"sparksdonation");
+mysqli_select_db($connection,"id20027682_sparksdonation");
 
 $user = $_POST['user'];
 $email = $_POST['email'];
